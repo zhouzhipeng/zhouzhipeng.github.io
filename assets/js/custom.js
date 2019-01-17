@@ -21,7 +21,7 @@ $(document).ready(function () {
     });
 
     /*========== Start Scroll For Navigation Menu ==========*/
-    navbar.on('click', 'a', function (e) {
+    $(".navbar-nav").on('click', 'a', function (e) {
         e.preventDefault();
         var $anchor = $(this);
         $('html, body').stop().animate({
