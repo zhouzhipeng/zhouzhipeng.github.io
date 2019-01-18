@@ -2,5 +2,4 @@
 
 - <a href="https://zhouzhipeng.com" >主页</a>
 
-- <a href="../page/donate.html" >赞助</a>
           

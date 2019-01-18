@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Welcome to xuxueli's website</title>
+
+    <!-- CSS  -->
+    <link href="../static/plugins/material-design-icons/3.0.1/iconfont/material-icons.css" rel="stylesheet">
+    <link href="../static/plugins/materialize/0.100.2/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <style>
+        /* Custom Stylesheet */
+        /**
+         * Use this file to override Materialize files so you can update
+         * the core Materialize files in the future
+         *
+         * Made By MaterializeCSS.com
+         */
+
+        nav ul a,
+        nav .brand-logo {
+            color: #444;
+        }
+
+        p {
+            line-height: 2rem;
+        }
+
+        .button-collapse {
+            color: #26a69a;
+        }
+
+        .parallax-container {
+            min-height: 380px;
+            line-height: 0;
+            height: auto;
+            color: rgba(255,255,255,.9);
+        }
+        .parallax-container .section {
+            width: 100%;
+        }
+
+        @media only screen and (max-width : 992px) {
+            .parallax-container .section {
+                position: absolute;
+                top: 40%;
+            }
+            #index-banner .section {
+                top: 10%;
+            }
+        }
+
+        @media only screen and (max-width : 600px) {
+            #index-banner .section {
+                top: 0;
+            }
+        }
+
+        .icon-block {
+            padding: 0 15px;
+        }
+        .icon-block .material-icons {
+            font-size: inherit;
+        }
+
+        footer.page-footer {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- header start -->
+<nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="../index.html" class="brand-logo">
+            <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg"
+                 style="width: 38px;vertical-align:middle;" >
+            许雪里
+        </a>
+        <!-- pc-nav -->
+        <ul class="right hide-on-med-and-down">
+            <li><a href="../page/projects.html">项目列表</a></li>
+            <li><a href="../page/community.html">关于社区</a></li>
+            <li><a href="../blog/" >博客</a></li>
+            <li class="active"><a href="../page/donate.html" >赞助</a></li>
+        </ul>
+        <!-- mobile-nav -->
+        <ul id="nav-mobile" class="side-nav">
+            <li class="center" >
+                <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/xxl-logo.jpg"
+                     style="width: 38px;vertical-align:middle;" >
+            </li>
+            <li class="divider"></li>
+            <li><a href="../page/projects.html">项目列表</a></li>
+            <li><a href="../page/community.html">关于社区</a></li>
+            <li><a href="../blog/" >博客</a></li>
+            <li class="active"><a href="../page/donate.html" >赞助</a></li>
+            <li class="divider"></li>
+        </ul>
+        <!-- menu icon -->
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+<!-- header end -->
+
+<!-- content -->
+<div class="section no-pad-bot">
+    <div class="container">
+
+        <div class="row">
+
+            <br>
+            <div>
+                <ul>
+
+                    <li>
+                        开源不易，项目的发展离不开你的支持，请作者喝杯咖啡吧！
+                    </li>
+
+                    <br>
+                    <li>
+                        <span style="color: #ffab40;" >无论赞助金额多少都足够表达您这份心意，非常感谢 ：）</span>
+                        <br>
+                        No matter how much the donation amount is enough to express your intention, thank you very much ：）
+                    </li>
+
+                </ul>
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col s4  m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/donate-wechat.png" width="200">
+                            <!--<span class="card-title">Card Title</span>-->
+                        </div>
+                        <!--<div class="card-content">
+                            <p>微信</p>
+                        </div>-->
+                        <div class="card-action">
+                            <a >微信</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4  m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/donate-alipay.jpg" width="200">
+                        </div>
+                        <div class="card-action">
+                            <a >支付宝</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4  m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="https://raw.githubusercontent.com/xuxueli/xxl-job/master/doc/images/donate-paypal.png" width="200">
+                        </div>
+                        <div class="card-action">
+                            <a href="https://www.paypal.me/xuxueli" style="text-decoration:underline;color: #65bd93;" target="_blank" >Paypal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+            <div>
+                <h5>个人赞助</h5>
+                <p>赞助所得全部收入，用于社区项目的开发、维护及网站服务器的费用。 你的支持将帮助社区能够持续发展。</p>
+                <!--<p>自2017-03-29起XXL系列接收用户赞助，所有赞助记录如下, 感谢你们的支持！：</p>-->
+            </div>
+
+            <table class="striped" style="display: none;" >
+                <thead>
+                    <tr><th>赞助时间  </th><th>金额     </th><th>名称              </th><th>留言                           </th></tr>
+                </thead>
+
+                <tbody>
+                    <tr><td>2018-09-18</td><td>6.66￥   </td><td>支付宝：*志用    </td><td>佩服，感谢。                     </td></tr>
+                    <tr><td>2018-09-14</td><td>5.00￥   </td><td>微信：K*t        </td><td>                              </td></tr>
+                    <tr><td>2018-09-12</td><td>5.00￥   </td><td>支付宝：*志昊    </td><td>每月一次。xxl越来越好             </td></tr>
+                    <tr><td>2018-09-12</td><td>8.00￥   </td><td>微信：师兄       </td><td>                               </td></tr>
+                    <tr><td>2018-09-10</td><td>6.00￥   </td><td>支付宝：*博      </td><td>                               </td></tr>
+                    <tr><td>2018-09-08</td><td>10.00￥  </td><td>微信： *的       </td><td>                              </td></tr>
+                    <tr><td>2018-08-27</td><td>5.00￥   </td><td>微信：*勋        </td><td>                              </td></tr>
+                    <tr><td>2018-08-26</td><td>2.00￥   </td><td>支付宝：*增璞    </td><td>                               </td></tr>
+                    <tr><td>2018-08-24</td><td>1.00￥   </td><td>微信：a*n        </td><td>                              </td></tr>
+                    <tr><td>2018-08-23</td><td>100￥    </td><td>支付宝：*延军    </td><td>                               </td></tr>
+                    <tr><td>2018-08-22</td><td>2.00￥   </td><td>微信：r*c        </td><td>微薄之力，请笑纳。               </td></tr>
+                    <tr><td>2018-08-22</td><td>50.00￥  </td><td>支付宝：*文荣    </td><td>                               </td></tr>
+                    <tr><td>2018-08-20</td><td>20.00￥  </td><td>微信：w*o        </td><td>                              </td></tr>
+                    <tr><td>2018-08-20</td><td>0.01￥   </td><td>支付宝：*允凯    </td><td>                               </td></tr>
+                    <tr><td>2018-08-17</td><td>8.88￥   </td><td>微信：*哔        </td><td>                              </td></tr>
+                    <tr><td>2018-08-10</td><td>6.66￥   </td><td>微信：*呦        </td><td>感谢开源                       </td></tr>
+                    <tr><td>2018-08-09</td><td>1.00￥   </td><td>微信：*Y         </td><td>                              </td></tr>
+                    <tr><td>2018-08-09</td><td>10.00￥  </td><td>微信：S*n        </td><td>                              </td></tr>
+                    <tr><td>2018-08-06</td><td>6.66￥   </td><td>支付宝：*流栋    </td><td>虽然穷还是想说666                </td></tr>
+                    <tr><td>2018-08-04</td><td>10.00￥  </td><td>支付宝：*晓飞    </td><td>                               </td></tr>
+                    <tr><td>2018-08-02</td><td>2.00￥   </td><td>微信：*水        </td><td>好项目 支持一下                 </td></tr>
+                    <tr><td>2018-07-31</td><td>50.00￥  </td><td>微信： *提       </td><td>                              </td></tr>
+                    <tr><td>2018-07-31</td><td>1.00￥   </td><td>微信：包*w       </td><td>感谢开源                       </td></tr>
+                    <tr><td>2018-07-27</td><td>10.00￥  </td><td>支付宝：*勇      </td><td>                               </td></tr>
+                    <tr><td>2018-07-25</td><td>1.00￥   </td><td>微信：*新        </td><td>                              </td></tr>
+                    <tr><td>2018-07-25</td><td>8.00￥   </td><td>微信：*缘        </td><td>表结构解析失败怎么回             </td></tr>
+                    <tr><td>2018-07-20</td><td>2.00￥   </td><td>微信：*果        </td><td>作者真棒，**真傻！              </td></tr>
+                    <tr><td>2018-07-20</td><td>0.50￥   </td><td>微信：*子        </td><td>周**同学好                     </td></tr>
+                    <tr><td>2018-07-20</td><td>8.88￥   </td><td>支付宝：*本立    </td><td>感谢大神开源的xxl-job            </td></tr>
+                    <tr><td>2018-07-16</td><td>100￥    </td><td>微信：E*w         </td><td>感谢                         </td></tr>
+                    <tr><td>2018-07-13</td><td>0.10￥   </td><td>微信：*a         </td><td>                              </td></tr>
+                    <tr><td>2018-07-12</td><td>0.77￥   </td><td>微信：*人        </td><td>                              </td></tr>
+                    <tr><td>2018-07-12</td><td>1.00￥   </td><td>支付宝：*福      </td><td>多谢                           </td></tr>
+                    <tr><td>2018-07-11</td><td>5.00￥   </td><td>微信：I*m        </td><td>开源不容易，支持一下             </td></tr>
+                    <tr><td>2018-07-10</td><td>0.66￥   </td><td>微信：*明        </td><td>                              </td></tr>
+                    <tr><td>2018-07-09</td><td>20.00￥  </td><td>微信：*水        </td><td>                              </td></tr>
+                    <tr><td>2018-07-08</td><td>10.00￥  </td><td>微信：T*M        </td><td>TIM                           </td></tr>
+                    <tr><td>2018-07-04</td><td>6.66￥   </td><td>支付宝：*军      </td><td>                               </td></tr>
+                    <tr><td>2018-07-02</td><td>10.00￥  </td><td>微信：*林        </td><td>感谢开源                        </td></tr>
+                    <tr><td>2018-07-02</td><td>20.00￥  </td><td>微信：z*l        </td><td>赞一个                         </td></tr>
+                    <tr><td>2018-06-30</td><td>66.66￥  </td><td>微信：*永        </td><td>雪里出品，必属精品               </td></tr>
+                    <tr><td>2018-06-29</td><td>6.66￥   </td><td>微信：z*g        </td><td>                              </td></tr>
+                    <tr><td>2018-06-26</td><td>50.00￥  </td><td>支付宝：*龙建    </td><td>开源，真实伟大的发明。            </td></tr>
+                    <tr><td>2018-06-22</td><td>10.00￥  </td><td>微信：*凯        </td><td>支持开源                       </td></tr>
+                    <tr><td>2018-06-22</td><td>5.00￥   </td><td>微信：*🐜        </td><td>支持开源，坚持下去！             </td></tr>
+                    <tr><td>2018-06-19</td><td>6.66￥   </td><td>微信：*海        </td><td>真诚赞赏，手留余香 ~             </td></tr>
+                    <tr><td>2018-06-19</td><td>18.88￥  </td><td>微信：D*r        </td><td>非常喜欢，加油 ~                </td></tr>
+                    <tr><td>2018-06-15</td><td>2.00￥   </td><td>支付宝：*阳      </td><td>                               </td></tr>
+                    <tr><td>2018-06-14</td><td>8.88￥   </td><td>微信：*超        </td><td>                              </td></tr>
+                    <tr><td>2018-06-13</td><td>5.50￥   </td><td>微信：*道        </td><td>xxl-api框架继续更新             </td></tr>
+                    <tr><td>2018-06-12</td><td>6.66￥   </td><td>微信：*呐        </td><td>支持支持                       </td></tr>
+                    <tr><td>2018-06-11</td><td>20.00￥  </td><td>微信：*创        </td><td>加油，加油                     </td></tr>
+                    <tr><td>2018-06-09</td><td>2.00￥   </td><td>微信：*门        </td><td>大牛，赞一个                    </td></tr>
+                    <tr><td>2018-06-09</td><td>5.00￥   </td><td>微信：*）        </td><td>                              </td></tr>
+                    <tr><td>2018-06-02</td><td>5.00￥   </td><td>微信：*简        </td><td>非常感谢                       </td></tr>
+                    <tr><td>2018-05-31</td><td>5.00￥   </td><td>支付宝：*志昊    </td><td>xxl conf                       </td></tr>
+                    <tr><td>2018-05-31</td><td>10.00￥  </td><td>支付宝：*超      </td><td>开源不易，好项目 支持！           </td></tr>
+                    <tr><td>2018-05-29</td><td>18.88￥  </td><td>微信：*庄        </td><td>                              </td></tr>
+                    <tr><td>2018-05-26</td><td>100￥    </td><td>微信：*皮        </td><td>                              </td></tr>
+                    <tr><td>2018-05-25</td><td>2.00￥   </td><td>微信：L*e        </td><td>想法真的很不错，易用！           </td></tr>
+                    <tr><td>2018-05-21</td><td>5.00￥   </td><td>微信：*团        </td><td>                              </td></tr>
+                    <tr><td>2018-05-16</td><td>2.00￥   </td><td>微信/*。         </td><td>非常感谢                       </td></tr>
+                    <tr><td>2018-05-15</td><td>8.88￥   </td><td>*耶             </td><td>感谢您写的软件                  </td></tr>
+                    <tr><td>2018-05-08</td><td>1.00￥   </td><td>微信/*空         </td><td>很牛x哦                        </td></tr>
+                    <tr><td>2018-05-07</td><td>23.33￥  </td><td>*俊杰            </td><td>开源，赞赞赞                    </td></tr>
+                    <tr><td>2018-05-04</td><td>6.66￥   </td><td>微信             </td><td>又出新品，支持一下！             </td></tr>
+                    <tr><td>2018-05-04</td><td>5.40￥   </td><td>*普             </td><td>5.4青年节——致敬开源的许哥！易圆B座 </td></tr>
+                    <tr><td>2018-04-25</td><td>1.00￥   </td><td>微信/钱*g        </td><td>                              </td></tr>
+                    <tr><td>2018-04-20</td><td>0.10￥   </td><td>微信/M*n         </td><td>                              </td></tr>
+                    <tr><td>2018-04-20</td><td>10.00￥  </td><td>*永杰            </td><td>希望继续保持                    </td></tr>
+                    <tr><td>2018-04-18</td><td>1.00￥   </td><td>微信/*波         </td><td>                              </td></tr>
+                    <tr><td>2018-04-11</td><td>50.00￥  </td><td>微信/爱*y        </td><td>开源，开源，开源。               </td></tr>
+                    <tr><td>2018-04-11</td><td>50.00￥  </td><td>*睿智            </td><td>666，支持一下                  </td></tr>
+                    <tr><td>2018-04-10</td><td>2.00￥   </td><td>微信/*突         </td><td>开源不易，向大牛学习             </td></tr>
+                    <tr><td>2018-04-07</td><td>1.00￥   </td><td>微信/h*y         </td><td>                              </td></tr>
+                    <tr><td>2018-04-03</td><td>6.66￥   </td><td>微信/*哥         </td><td>                              </td></tr>
+                    <tr><td>2018-04-03</td><td>1.00￥   </td><td>微信/*胜         </td><td>支持开源                       </td></tr>
+                    <tr><td>2018-04-02</td><td>8.00￥   </td><td>微信/*监         </td><td>感谢开源                       </td></tr>
+                    <tr><td>2018-04-01</td><td>50.00￥  </td><td>微信/a*)         </td><td>开源不易，聊表心意              </td></tr>
+                    <tr><td>2018-03-23</td><td>5.00￥   </td><td>微信/*归         </td><td>xxl-job很不错，支持             </td></tr>
+                    <tr><td>2018-03-21</td><td>8.88￥   </td><td>微信/1*1         </td><td>佩服，支持！                    </td></tr>
+                    <tr><td>2018-03-14</td><td>10.00￥  </td><td>微信/*爹         </td><td>吃水不忘挖井人，感谢             </td></tr>
+                    <tr><td>2018-03-11</td><td>20.00￥  </td><td>微信/*峰         </td><td>感谢开源                       </td></tr>
+                    <tr><td>2018-03-08</td><td>10.00￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-03-08</td><td>50.00￥  </td><td>微信             </td><td>支持一下                       </td></tr>
+                    <tr><td>2018-03-07</td><td>6.66￥   </td><td>微信             </td><td>API管理很实用，感谢             </td></tr>
+                    <tr><td>2018-03-07</td><td>10.00￥  </td><td>微信             </td><td>支持开源！                     </td></tr>
+                    <tr><td>2018-03-02</td><td>18.88￥  </td><td>微信             </td><td>买碗面啊哈哈                    </td></tr>
+                    <tr><td>2018-03-01</td><td>8.88￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-02-27</td><td>20.00￥  </td><td>*勇              </td><td>xxl-job写的很好，开源不易，支持  </td></tr>
+                    <tr><td>2018-02-10</td><td>2.00￥   </td><td>*永丰            </td><td>                              </td></tr>
+                    <tr><td>2018-02-09</td><td>10.00￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-02-06</td><td>6.66￥   </td><td>微信             </td><td>很实用，支持开源                </td></tr>
+                    <tr><td>2018-01-23</td><td>10.00￥  </td><td>微信             </td><td>很实用的Api管理工具             </td></tr>
+                    <tr><td>2018-01-20</td><td>6.66￥   </td><td>微信             </td><td>支持开源                       </td></tr>
+                    <tr><td>2018-01-18</td><td>10.0￥   </td><td>微信             </td><td>支持！cmiot_hemu_shb           </td></tr>
+                    <tr><td>2018-01-18</td><td>20.0￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-01-12</td><td>6.66￥   </td><td>微信             </td><td>不错，看好                     </td></tr>
+                    <tr><td>2018-01-11</td><td>2.60￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-01-08</td><td>16.66￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2018-01-04</td><td>10.00￥  </td><td>微信             </td><td>开源事业不容易，支持             </td></tr>
+                    <tr><td>2017-12-28</td><td>8.88￥   </td><td>微信              </td><td>                             </td></tr>
+                    <tr><td>2017-12-22</td><td>10.00￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-22</td><td>20.00￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-22</td><td>5.00￥   </td><td>*健              </td><td>                              </td></tr>
+                    <tr><td>2017-12-21</td><td>20.00￥  </td><td>微信             </td><td>好多好项目，谢谢                </td></tr>
+                    <tr><td>2017-12-21</td><td>88.00￥  </td><td>微信             </td><td>开源让我感动，加油               </td></tr>
+                    <tr><td>2017-12-18</td><td>0.01￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-18</td><td>1.00￥   </td><td>微信             </td><td>老铁，陆陆陆，赞一个             </td></tr>
+                    <tr><td>2017-12-18</td><td>10.00￥  </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-15</td><td>5.00￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-14</td><td>1.00￥   </td><td>微信             </td><td>                              </td></tr>
+                    <tr><td>2017-12-13</td><td>100.00￥  </td><td>4群-大米         </td><td>开源事业不容易。犒劳一下挖井人，持之以恒。   </td></tr>
+                    <tr><td>2017-12-04</td><td>88.00￥   </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-12-01</td><td>10.00￥   </td><td>微信             </td><td>支持开源，愿坚持下去            </td></tr>
+                    <tr><td>2017-12-01</td><td>6.66￥    </td><td>微信             </td><td>老铁，加油                     </td></tr>
+                    <tr><td>2017-11-28</td><td>2.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-11-24</td><td>1.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-11-22</td><td>8.00￥    </td><td>*志              </td><td>感谢**                       </td></tr>
+                    <tr><td>2017-11-22</td><td>29.90￥   </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-11-21</td><td>10.00￥   </td><td>*瑞              </td><td>微薄之力，支持开源             </td></tr>
+                    <tr><td>2017-11-21</td><td>2.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-11-07</td><td>8.88￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-11-06</td><td>5.00￥    </td><td>*玉峰            </td><td>                             </td></tr>
+                    <tr><td>2017-11-02</td><td>5.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-10-31</td><td>20.00￥   </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-10-26</td><td>10.00￥   </td><td>微信             </td><td>感谢开源贡献~                  </td></tr>
+                    <tr><td>2017-10-19</td><td>1.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-10-19</td><td>1.00￥    </td><td>微信             </td><td>哈哈                          </td></tr>
+                    <tr><td>2017-10-18</td><td>18.00￥   </td><td>微信             </td><td>**学习                        </td></tr>
+                    <tr><td>2017-10-15</td><td>0.01￥    </td><td>微信             </td><td>好用                          </td></tr>
+                    <tr><td>2017-10-14</td><td>30.00￥   </td><td>微信             </td><td>支持开源！                     </td></tr>
+                    <tr><td>2017-10-10</td><td>0.10￥    </td><td>微信             </td><td>test 123                     </td></tr>
+                    <tr><td>2017-10-09</td><td>8.00￥    </td><td>微信             </td><td>支持                          </td></tr>
+                    <tr><td>2017-09-30</td><td>1.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-09-26</td><td>19.99￥   </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-09-25</td><td>6.66￥    </td><td>微信             </td><td>感谢开源贡献！                 </td></tr>
+                    <tr><td>2017-09-23</td><td>88.88￥   </td><td>微信             </td><td>love is on the way           </td></tr>
+                    <tr><td>2017-09-23</td><td>20.00￥   </td><td>微信             </td><td>尽微薄之力，感谢你将*           </td></tr>
+                    <tr><td>2017-09-20</td><td>5.00￥    </td><td>Hero*            </td><td>                             </td></tr>
+                    <tr><td>2017-09-13</td><td>66.66￥   </td><td>微信             </td><td>开源值得被尊敬                 </td></tr>
+                    <tr><td>2017-09-07</td><td>5.00￥    </td><td>孤枫*            </td><td>支持下开源项目                 </td></tr>
+                    <tr><td>2017-09-06</td><td>10.00￥   </td><td>微信             </td><td>开源贡献支持！                 </td></tr>
+                    <tr><td>2017-09-05</td><td>39.00￥   </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-09-02</td><td>0.50￥    </td><td>微信             </td><td>开源精神值得敬佩！              </td></tr>
+                    <tr><td>2017-08-17</td><td>10.00￥   </td><td>微信             </td><td>不行，还得感谢一把              </td></tr>
+                    <tr><td>2017-08-17</td><td>10.00￥   </td><td>微信             </td><td>感谢，好项目，好作者            </td></tr>
+                    <tr><td>2017-08-16</td><td>3.00￥    </td><td>微信             </td><td>                             </td></tr>
+                    <tr><td>2017-06-30</td><td>10.00￥   </td><td>石头哥哥*         </td><td>支持下xxl开源系列             </td></tr>
+                    <tr><td>2017-06-16</td><td>10.00￥   </td><td>劳巴*            </td><td>xxl-job对我的帮助很大，辛苦你们的帮助，辛苦了！    </td></tr>
+                    <tr><td>2017-06-12</td><td>6.66￥    </td><td>凌浦*            </td><td>                             </td></tr>
+                    <tr><td>2017-06-12</td><td>10.00￥   </td><td>Henry*           </td><td>支持XXL                      </td></tr>
+                    <tr><td>2017-06-12</td><td>10.00￥   </td><td>loioi*           </td><td>感谢您的开源项目！             </td></tr>
+                    <tr><td>2017-05-10</td><td>10.00￥   </td><td>阿杜杜不是阿木木*  </td><td>感谢您的开源项目！             </td></tr>
+                </tbody>
+            </table>
+
+
+            <br>
+            <div>
+                <h5>企业赞助</h5>
+                <p>为了项目更好的发展，XXL社区接受企业赞助，可以让你的产品所依赖的框架保持健康并得到积极的维护。可<a style="text-decoration:underline;color: #65bd93;" href="mailto:931591021@qq.com" >邮件联系作者</a>成为赞助者：</p>
+
+
+                <!--<ul>
+                    <li>
+                        <a href="javascript:;" target="_blank">
+                            <div class="chip" ></div>
+                        </a>
+                    </li>
+                </ul>-->
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- footer start -->
+<footer class="page-footer teal">
+    <div class="container">
+        <div class="row">
+            <div class="col l8 s12">
+                <h5 class="white-text">Author's words.</h5>
+                <p class="grey-text text-lighten-4">
+                    Hi, I am the author of XXL series open source software, and thanks for your attention and trust.
+                    XXL series open source software will keep open source free, and we will continue to provide free community technical support.
+                </p>
+            </div>
+            <div class="col l3 offset-l1 s12">
+                <h5 class="white-text">Link</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.upyun.com/" target="_blank">又拍云（提供CDN赞助）</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Copyright (c) 2015-present, xuxueli.
+            <a class="grey-text text-lighten-4 right" ></a>
+        </div>
+    </div>
+</footer>
+<!-- footer end -->
+
+<!-- fork me
+<a href="https://github.com/xuxueli"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+-->
+
+</body>
+
+<script src="../static/plugins/jquery/2.2.4/jquery.min.js"></script>
+<script src="../static/plugins/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(function () {
+        $('.button-collapse').sideNav();
+    });
+</script>
+
+
+<!-- google start -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-105336587-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- google end -->
+
+<!-- baidu start -->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?2a4e116e8983ca87e083a41b552fe6a2";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!-- baidu end -->
+
+<!-- cnzz start -->
+<script type="text/javascript">
+    /*var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263800177'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1263800177' type='text/javascript'%3E%3C/script%3E"));*/
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1263800177'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1263800177' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- cnzz end -->
+
+</html>
