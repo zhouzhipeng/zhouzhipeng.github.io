@@ -4,6 +4,15 @@
 
 ### 最新文章
 
+
+
+#### [实战:用Redis快速实现BloomFilter！](articles/implementing-bloomfilter-with-redis )
+![](static/images/bloom-filter.png)
+> 最近工作上有个类似需求是： 现有约3亿条数据词典存在于一个csv文件A中，作为数据源。对于 用户输入的任意单词M，需要快速的在A中匹配M单词是否存在。（A文件约3G大小左右，总行数三亿）拿到这个需求，你的第一想法怎么做呢？
+
+
+---
+
 #### [Redis内存空间简单分析](articles/redis-memory-analysis.md )
 ![](static/images/2018/12/redis.png)
 > 最近发现项目中用的`redis` 内存消耗很大（但是印象中却以为没有这么多的key的内存消耗才对呀？），使用`info`命令可以看到所有key占用的一些内存大小以及key的数量等等，如下图所示(只截图了memory和ke…
