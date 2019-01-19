@@ -1,0 +1,19 @@
+{
+  "name": "my-project",
+  "scripts": {
+    "start": "docsify start . -c ssr.config.js",
+    "deploy": "now -p"
+  },
+  "files": [
+    "blog"
+  ],
+  "docsify": {
+    "config": {
+      "basePath": "http://localhost:4000",
+      "loadSidebar": true,
+      "loadNavbar": true,
+      "coverpage": true,
+      "name": "docsify"
+    }
+  }
+}
