@@ -1622,6 +1622,7 @@ body {
     z-index: 1;
     border: 1px solid #f3f2f2;
     position: relative;
+    height: 271px;
 
 }
 .date {
@@ -1649,7 +1650,7 @@ body {
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 15px;
-    height: 60px;
+    /*height: 60px;*/
     overflow: hidden;
 }
 .blog-info .title-post a h5:hover {
