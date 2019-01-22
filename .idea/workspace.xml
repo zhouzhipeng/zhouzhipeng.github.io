@@ -1,118 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c034ff1c-6df1-4693-90eb-364ce8ae6d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/game/TheI/TheI.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/appmanifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/c2runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/icon-114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/icon-128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/icon-16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/icon-256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/icon-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/ball-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/ball-sheet1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/begin-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/blue_sliderdown-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/blue_sliderleft-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/blue_sliderright-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/blue_sliderup-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/bottom-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/brick-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/door-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/elevator-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/elevatorassist-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/finished-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/help-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/helpsprite-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/levelholder-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/leveltext-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/menu_newgame-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/menu_play-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/mover-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/mover2-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/newgame-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/obstacle-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/retry-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/reward-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/safezone-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite10-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite2-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite3-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite4-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite5-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite6-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/sprite8-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/syssetting-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/tilemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/title-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/trap-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/trigger-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/images/white-sheet0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/jweixin-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/loading-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/btnclick.m4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/btnclick.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/mountainside.m4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/mountainside.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/sculpture-garden.m4a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/media/sculpture-garden.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/offline.appcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/TheI/sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/layer.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/mobile/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/mobile/need/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/component/layer-v3.0.3/layer/skin/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/baidu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/blogger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/kyzg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/netease.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/website.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/icon/win10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/presentation/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/presentation/bluescreen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/presentation/donation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/presentation/wangyiyun.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/wallpapers/login.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/wallpapers/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/wallpapers/mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/img/windows.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/js/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/js/service-worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/js/win10.child.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/tools/js/win10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c034ff1c-6df1-4693-90eb-364ce8ae6d00" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,14 +83,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="5" />
-          <entry key="html" value="421" />
+          <entry key="html" value="422" />
           <entry key="js" value="8" />
           <entry key="md" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="421" />
+          <entry key="HTML" value="422" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="101" />
         </counts>
@@ -278,12 +167,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="1108" column="78" selection-start-line="1108" selection-start-column="78" selection-end-line="1108" selection-end-column="78" />
+            <state relative-caret-position="84">
+              <caret line="1085" column="50" selection-start-line="1085" selection-start-column="50" selection-end-line="1085" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -386,22 +274,6 @@
               <item name="zhouzhipeng.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhouzhipeng.com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zhouzhipeng.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhouzhipeng.com" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhouzhipeng.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhouzhipeng.com" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhouzhipeng.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhouzhipeng.com" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -468,7 +340,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1281" y="23" width="1280" height="697" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22132471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -482,7 +353,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.8429752" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -662,12 +533,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="1108" column="78" selection-start-line="1108" selection-start-column="78" selection-end-line="1108" selection-end-column="78" />
+        <state relative-caret-position="84">
+          <caret line="1085" column="50" selection-start-line="1085" selection-start-column="50" selection-end-line="1085" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
