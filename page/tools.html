@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <title>周志鹏的工具箱</title>
+
+    <!--start pwa setting-->
+    <meta name="full-screen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0CB3EE">
+    <meta name="apple-mobile-web-app-title" content="工具箱">
+
+    <link rel="manifest" href="/manifest.json">
+    <!--end pwa setting-->
+
+    <link rel='Shortcut Icon' type='image/x-icon' href='./img/windows.ico'>
+    <link href="tools/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="tools/component/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="tools/css/default.css" rel="stylesheet">
+    <link href="tools/css/main.css" rel="stylesheet">
+
+    <!--library js-->
+    <script type="text/javascript" src="tools/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="tools/component/layer-v3.0.3/layer/layer.js"></script>
+
+    <!--custom js-->
+    <script type="text/javascript" src="tools/js/win10.js"></script>
+
+    <script type="text/javascript"  src="tools/js/main.js?v=1"></script>
+
+    <link rel="shortcut icon" href="https://zhouzhipeng.com/z_logo.png">
+
+
+</head>
+<body>
+<div id="win10">
+    <div class="desktop">
+        <div id="win10-shortcuts" class="shortcuts-hidden">
+
+
+        </div>
+
+        <div id="win10-desktop-scene" style="text-align: center;">
+            <!--<h2 style="color: white;">周志鹏的小桌面</h2>-->
+            <!--<h2 style="color: white;">正在努力建设中...</h2>-->
+        </div>
+    </div>
+    <div id="win10-menu" class="hidden">
+        <!--<div class="list win10-menu-hidden animated animated-slideOutLeft">-->
+            <!--<div class="item"-->
+                 <!--onclick="Win10.exit()">-->
+                <!--<i class="black icon fa fa-power-off fa-fw"></i><span class="title">关闭</span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="blocks">
+            <div class="menu_group">
+                <div class="title">Welcome</div>
+                <div class="block" loc="1,1" size="6,4">
+                    <div class="content">
+                        <div style="font-size:100px;line-height: 132px;margin: 0 auto ;display: block"
+                             class="fa fa-fw fa-windows win10-block-content-text"></div>
+                        <div class="win10-block-content-text" style="font-size: 22px">欢迎使用 Win10-UI</div>
+                    </div>
+                </div>
+                <div loc="1,6" size="6,3" class="block">
+                    <div class="content" >
+                        我是主体
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="win10-menu-switcher"></div>
+    </div>
+    <div id="win10_command_center" class="hidden_right">
+        <div class="title">
+            <h4 style="float: left">消息中心 </h4>
+            <span id="win10_btn_command_center_clean_all">全部清除</span>
+        </div>
+        <div class="msgs"></div>
+    </div>
+    <div id="win10_task_bar">
+        <div id="win10_btn_group_left" class="btn_group" style="display:none" >
+            <div id="win10_btn_win" class="btn"><span class="fa fa-windows"></span></div>
+            <div class="btn" id="win10-btn-browser"><span class="fa fa-internet-explorer"></span></div>
+        </div>
+        <div id="win10_btn_group_middle" class="btn_group"></div>
+        <div id="win10_btn_group_right" class="btn_group">
+            <div class="btn" id="win10_btn_time"></div>
+            <div class="btn" id="win10_btn_command" style="display:none"><span id="win10-msg-nof" class="fa fa-comment-o"></span></div>
+            <div class="btn" id="win10_btn_show_desktop"></div>
+        </div>
+    </div>
+</div>
+
+<div style="display:none">
+    <!-- cnzz start -->
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272879065'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272879065' type='text/javascript'%3E%3C/script%3E"));</script>
+    <!-- cnzz end -->
+</div>
+</body>
+</html>

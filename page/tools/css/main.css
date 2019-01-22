@@ -1,0 +1,10 @@
+* {
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
+}
+
+/*磁贴自定义样式*/
+.win10-block-content-text {
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+}
