@@ -1,8 +1,8 @@
-## Lambda函数服务
+## Lambda4J函数服务平台
 
 > 一个轻量的高效java函数服务.
 
-## Lambda是什么？
+## Lambda4J是什么？
 
 docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
 

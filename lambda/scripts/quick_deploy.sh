@@ -5,18 +5,20 @@ set -e
 
 # 先启动存储容器
 docker run --name lambda-postgres -d -p  5432:5432  -e POSTGRES_PASSWORD=123456  postgres:9.6
-docker run -d --name lambda-redis -p 6379:6379 redis
-docker run -d --name lambda-mongo -p 27017:27017 mongo
+docker run -d --name lambda-redis -p 6379:6379 redis:5
+docker run -d --name lambda-mongo -p 27017:27017 mongo:4
 
 
 # 初始化lambda-api表结构
+# 等5秒钟让数据库运行起来先
+sleep 5
 FILE="https://zhouzhipeng.com/lambda/scripts/lamdb_api.sql"
 curl -o tmp_lambda_api.sql $FILE
 docker cp tmp_lambda_api.sql lambda-postgres:/tmp/api.sql
 rm -rf tmp_lambda_api.sql
 
-docker exec  postgres9.6  bash  -c 'createdb  -U  postgres lambda-api && \
-psql  -U  postgres -f /tmp/api.sql  test && \
+docker exec  lambda-postgres  bash  -c 'createdb  -U  postgres lambda-api && \
+psql  -U  postgres -f /tmp/api.sql  lambda-api && \
 rm -rf /tmp/api.sql '
 
 
@@ -33,7 +35,7 @@ docker run -d  --name lambda-api \
     -v /data/logs:/data/logs \
     -v /var/run/docker.sock:/var/run/docker.sock\
     -p 8080:8080 \
-    registry.cn-shanghai.aliyuncs.com/zhouzhipeng/lambda-api:product-1548402483-a5d447a
+    zhouzhipeng/lambda-api:1.0
 
 
 # 启动lambda-web
@@ -43,6 +45,14 @@ docker run -d --name lambda-web  \
     -e MONGO_HOST="lambda-mongo"  \
     -e MONGO_PORT=27017 \
     -e MONGO_DATABASE_NAME="lambda-web" \
+    -e ADMIN_ACCOUNT="admin@zhouzhipeng.com" \
     -e API_HOST="http://lambda-api:8080"   \
+    -e CLOSE_REGISTER="true" \
     -p 3000:3000 \
-    registry.cn-shanghai.aliyuncs.com/zhouzhipeng/lambda-web:product-1548656271-6cbe234
+    zhouzhipeng/lambda-web:1.0
+
+
+# wait for running up!
+sleep 3
+
+echo "Congratulation! Running success! visit: http://localhost:3000 ,login with user: admin@zhouzhipeng.com and password: 123456"
