@@ -13,7 +13,7 @@
 
 ```bash
 # 一键部署脚本(会启动5个跟lambda4j平台相关服务容器)
-curl -sSL https://zhouzhipeng.com/lambda/scripts/quick_start.sh | bash
+curl -sSL https://zhouzhipeng.com/lambda/scripts/quick_deploy.sh | bash
 
 # 一键清理脚本(停掉上面快速部署脚本中启动的所有服务！慎用)
 curl -sSL https://zhouzhipeng.com/lambda/scripts/clear.sh | bash
