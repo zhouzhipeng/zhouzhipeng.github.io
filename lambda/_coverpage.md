@@ -1,8 +1,8 @@
 <img src="static/images/lambda-logo.png" width="100" >
 
-# Lambda
+# Lambda4J
 
-> Lambda函数服务
+> Lambda4J函数服务
 
 - 开发迅速、学习简单、轻量级、易扩展
 

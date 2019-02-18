@@ -42,6 +42,7 @@ docker run -d  --name lambda-api \
 docker run -d --name lambda-web  \
     --link lambda-mongo:lambda-mongo \
     --link lambda-api:lambda-api \
+    -e INIT_DB=1 \
     -e MONGO_HOST="lambda-mongo"  \
     -e MONGO_PORT=27017 \
     -e MONGO_DATABASE_NAME="lambda-web" \

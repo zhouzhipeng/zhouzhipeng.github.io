@@ -1,32 +1,17 @@
 ## Lambda4J函数服务平台
 
-> 一个轻量的高效java函数服务.
+> 一个轻量的高效面向java语言的函数服务.
 
 ## Lambda4J是什么？
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
+用Java来写一段代码快速业务逻辑，并暴露出restful接口。
 
-See the [Quick start](articles/quickstart.md) guide for more details.
+## 特性
 
-## Features
+- 简单易用
+- 能完成80%的业务场景需求
 
-- No statically built html files
-- Simple and lightweight (~21kB gzipped)
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-- Compatible with IE10+
-- Support server-side rendering ([example](https://github.com/docsifyjs/docsify-ssr-demo))
 
-## Examples
+## 快速上手
 
-Check out the [Showcase](https://github.com/docsifyjs/docsify/#showcase) to see docsify in use.
-
-## Donate
-
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
-
-## Community
-
-Users and the development team are usually in the [Gitter chat room](https://gitter.im/docsifyjs/Lobby).
+[快速上手](https://zhouzhipeng.com/lambda/#/articles/quickstart)
