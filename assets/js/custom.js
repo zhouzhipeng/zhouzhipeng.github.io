@@ -62,22 +62,22 @@ $(document).ready(function () {
     
     
     /*========== Start Portfolio Trigger Filterizr Js ==========*/
-    $("#control li").on('click', function () {
-        $(this).addClass('active').siblings().removeClass('active');
-    });
-    // The Filterizr
-    $('#filtr-container').filterizr({
-        animationDuration: 0.4
-    });
+//    $("#control li").on('click', function () {
+//        $(this).addClass('active').siblings().removeClass('active');
+//    });
+//    // The Filterizr
+//    $('#filtr-container').filterizr({
+//        animationDuration: 0.4
+//    });
 
     /*========== Start Magnigic Popup Js ==========*/
-    $('.my-work').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+//    $('.my-work').magnificPopup({
+//        delegate: 'a',
+//        type: 'image',
+//        gallery: {
+//            enabled: true
+//        }
+//    });
 
     
     

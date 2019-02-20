@@ -4,6 +4,8 @@
 
 你可以直接访问Lambda4J在线demo地址在线使用体验: [Lambda4J](https://lambda.zhouzhipeng.com)
 
+测试账号： `823143047@qq.com`  密码： `123456`
+
 ![](../static/images/lambda4j_demo.gif)
 
 
