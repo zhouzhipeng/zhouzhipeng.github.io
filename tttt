@@ -1,0 +1,31 @@
+Sometimes we often need to upload or download small files on a Linux machine. At this time, the usual practice is to open a `ftp` software for transmission, but sometimes it is more troublesome. Generally, another good way is to use The `rz` `sz` command is uploaded or downloaded directly.
+
+The following actions are demonstrated in `SecureCRT`:
+
+## Download and install rzsz (step by step)
+
+```bash
+
+# 1. Download the rzsz installation package
+Wget https://ohse.de/uwe/releases/lrzsz-0.12.20.tar.gz
+
+# 2. Unzip
+Tar zxvf lrzsz-0.12.20.tar.gz &amp;&amp; cd lrzsz-0.12.20
+
+# 3. Compile and install
+./configure &amp;&amp; make &amp;&amp; make install
+
+# 4. Create a soft chain
+Ln -s /usr/local/bin/lrz /usr/local/bin/rz
+Ln -s /usr/local/bin/lsz /usr/local/bin/sz
+
+```
+
+## Demonstration
+
+1. File Download: Use `sz your_filename` to download the file to your local directory (the specific directory is set in `SecureCRT`, as shown below:
+
+![](https://zhouzhipeng.com/wp-content/uploads/2018/02/Snip20180206_435.png)
+
+2. File upload: directly use `rz`, the following file box will pop up:
+![](https://zhouzhipeng.com/wp-content/uploads/2018/02/Snip20180206_439.png)

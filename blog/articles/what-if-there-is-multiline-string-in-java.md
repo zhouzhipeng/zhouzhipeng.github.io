@@ -42,7 +42,7 @@ let multiline_str=`
 
 请看下面的实现：
 
-![](../static/images/2018/09/java多行字符串演示.gif)
+![](/wp-content/uploads/2018/09/java多行字符串演示.gif)
 
 
 
@@ -54,13 +54,13 @@ let multiline_str=`
 
 试想一下你的sql如果可以这样写：
 
-![](../static/images/2018/09/WX20180909-180500@2x.png)
+![](/wp-content/uploads/2018/09/WX20180909-180500@2x.png)
 
 
 
 再试想下可以这样直接写 shell 命令：
 
-![](../static/images/2018/09/WX20180909-180701@2x.png)
+![](/wp-content/uploads/2018/09/WX20180909-180701@2x.png)
 
 
 

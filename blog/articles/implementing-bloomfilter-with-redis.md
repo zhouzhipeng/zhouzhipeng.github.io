@@ -74,19 +74,7 @@ redis> GETBIT bit 100   # bit 默认被初始化为 0
 不要方，我们要的hash是 input: String  --> output: int , jdk里面的String类不是恰好也有一个`hashCode` 方法吗？ 翻出来看一看！
 
 ```java
-/**
-     * Returns a hash code for this string. The hash code for a
-     * {@code String} object is computed as
-     * <blockquote><pre>
-     * s[0]*31^(n-1) + s[1]*31^(n-2) + ... + s[n-1]
-     * </pre></blockquote>
-     * using {@code int} arithmetic, where {@code s[i]} is the
-     * <i>i</i>th character of the string, {@code n} is the length of
-     * the string, and {@code ^} indicates exponentiation.
-     * (The hash value of the empty string is zero.)
-     *
-     * @return  a hash code value for this object.
-     */
+
     public int hashCode() {
         int h = hash;
         if (h == 0 && value.length > 0) {
@@ -147,7 +135,7 @@ public class RedisService {
     private StringRedisTemplate template;
 
 	public void multiSetBit(String name, boolean value, long... offsets) {
-        template.executePipelined((RedisCallback<Object>) connection -> {
+        template.executePipelined((RedisCallback) connection -> {
 
             for (long offset : offsets) {
                 connection.setBit(name.getBytes(), offset, value);
@@ -160,7 +148,7 @@ public class RedisService {
 
     public List<Boolean> multiGetBit(String name, long... offsets) {
 
-        List<Object> results = template.executePipelined((RedisCallback<Object>) connection -> {
+        List results = template.executePipelined((RedisCallback) connection -> {
 
             for (long offset : offsets) {
                 connection.getBit(name.getBytes(), offset);
