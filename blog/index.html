@@ -12,7 +12,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <link href="https://cdn.bootcss.com/docsify/4.8.6/themes/vue.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
+     <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> 
 
     <link rel="shortcut icon" href="../z_logo.png">
 
@@ -61,9 +61,14 @@
       plugins: [
             function (hook) {
               var footer = [
+                  `<div class="share-div">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"/>
+    <div class="social-share"></div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"><\/script>
+</div>`,
                 '<hr/>',
                 '<footer>',
-                '<span><a href="https://zhouzhipeng.com">zhouzhipeng</a> © 2018 All Rights Reserved By zhouzhipeng.com</span>',
+                '<span><a href="https://zhouzhipeng.com">zhouzhipeng</a> © 2021 All Rights Reserved By zhouzhipeng.com</span>',
                 '</footer>'
               ].join('')
 
@@ -79,29 +84,44 @@
                   //let codefundContainer = document.createElement('div')
                   //codefundContainer.id = 'codefund'
                   //nav[0].insertBefore(codefundContainer, nav[0].firstChild)
+                    
+                    
+                    //每篇文章底部自动插入分享按钮
+//                     if($(".share-div").length===0){
+//                         $(".markdown-section").append(`
+//                         <div class="share-div">
+//     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"/>
+//     <div class="social-share"></div>
+//     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"><\/script>
+// </div>
+//                         `);
+//                     }
+                    
+                    
 
-                  if (document.getElementsByClassName('cf-wrapper').length === 0) {
-                    // window._codefund && window._codefund.serve();
-                    $(".sidebar-nav").prepend(
-
-                        `
-                        <div id="codefund"><div id="cf" style="max-width: 330px; margin: 0 auto;"> <div class="cf-wrapper" style="display: block; overflow: hidden; font-size: 14px; line-height: 1.4; font-family: Helvetica; padding: 15px;" align="left"> <div class="clearfix" style="overflow: auto;"> 
-
-
-                        <a data-href="campaign_url" class="cf-img-wrapper"  rel="noopener" style="float: left; margin-right: 15px;" href="https://zhouzhipeng.com/blog/"> <img class="cf-img" src="static/images/codingair_wechat.jpg" style="vertical-align: middle; max-width: 130px; border: 1px solid green;"> </a> 
-
-                        <a data-href="campaign_url" class="cf-text"  rel="noopener" style="color: #333; text-decoration: none;" href="https://zhouzhipeng.com/blog/">  
-
-
-                        <span style="
-                                font-size: 13px;
-                            ">扫码关注微信公众号，获取更快更及时的文章更新通知及其他编程知识！</span> </a> </div>  </div> </div><style>#cf .clearfix::after {content: ""; clear: both; display: table;}</style></div>
-
-                        `
-
-
-                        )
-                  }
+                    //侧边栏显示个人二维码信息
+                  // if (document.getElementsByClassName('cf-wrapper').length === 0) {
+                  //   // window._codefund && window._codefund.serve();
+                  //   $(".sidebar-nav").prepend(
+                  //
+                  //       `
+                  //       <div id="codefund"><div id="cf" style="max-width: 330px; margin: 0 auto;"> <div class="cf-wrapper" style="display: block; overflow: hidden; font-size: 14px; line-height: 1.4; font-family: Helvetica; padding: 15px;" align="left"> <div class="clearfix" style="overflow: auto;"> 
+                  //
+                  //
+                  //       <a data-href="campaign_url" class="cf-img-wrapper"  rel="noopener" style="float: left; margin-right: 15px;" href="https://zhouzhipeng.com/blog/"> <img class="cf-img" src="static/images/codingair_wechat.jpg" style="vertical-align: middle; max-width: 130px; border: 1px solid green;"> </a> 
+                  //
+                  //       <a data-href="campaign_url" class="cf-text"  rel="noopener" style="color: #333; text-decoration: none;" href="https://zhouzhipeng.com/blog/">  
+                  //
+                  //
+                  //       <span style="
+                  //               font-size: 13px;
+                  //           ">扫码关注微信公众号，获取更快更及时的文章更新通知及其他编程知识！</span> </a> </div>  </div> </div><style>#cf .clearfix::after {content: ""; clear: both; display: table;}</style></div>
+                  //
+                  //       `
+                  //
+                  //
+                  //       )
+                  // }
                 })
               }
             
@@ -127,8 +147,8 @@
 
 <script src="https://cdn.bootcss.com/docsify/4.8.6/docsify.min.js"></script>
 <script src="https://zhouzhipeng.com/assets/docsify/docsify-copy-code.min.js"></script>
-<!-- <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
-<!-- <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+ <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> 
+ <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script> 
 
 <script src="https://cdn.bootcss.com/docsify/4.8.6/plugins/search.min.js"></script>
 
@@ -137,11 +157,12 @@
 <script src="https://zhouzhipeng.com/assets/docsify/prism-java.js"></script>
 
 <script src="https://zhouzhipeng.com/assets/docsify/prism-python.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
-<!-- <script>
+<script>
   const gitalk = new Gitalk({
-    clientID: '2dac7d1827567d0e8074',
-    clientSecret: '05c37efda7ef345f85f1af272b2b406149840799',
+    clientID: '94a67aefc978e17aefd9',
+    clientSecret: '19a7f7f14384598f7fdb31262da06210cc3196ee',
     repo: 'zhouzhipeng.github.io',
     owner: 'zhouzhipeng',
     admin: ['zhouzhipeng'],
@@ -149,7 +170,7 @@
     distractionFreeMode: true
   })
 
-</script> -->
+</script>
 
 
 <!-- google start -->
@@ -181,10 +202,16 @@
 <!-- baidu end -->
 
 <div style="display:none">
+    
+
 <!-- cnzz start -->
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1272879065'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1272879065' type='text/javascript'%3E%3C/script%3E"));</script>
 <!-- cnzz end -->
 </div>
+
+<!--外链脚本插件-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+
 
 </body>
 
