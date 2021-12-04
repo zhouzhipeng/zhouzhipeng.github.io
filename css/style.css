@@ -18,6 +18,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+    color:#25959b;
 }
 
 h4 {
@@ -25,7 +26,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #f6f7f9;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -37,7 +38,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #f6f7f9;
     top: 9px;
 }
 
@@ -227,7 +228,7 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: #ed8181;
     font-size: 11px;
     font-weight: bold;
 }
@@ -242,7 +243,7 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: #2666fb;
     text-decoration: none;
 }
 
@@ -744,10 +745,17 @@ fieldset {
     }
 }
 
+
+
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
+    }
+
+
+    #home{
+        background-position: 976px 0px;
     }
 }
 
@@ -761,6 +769,9 @@ fieldset {
     .disply-table {
         height: 600px;
     }
+    #home{
+        background-position: 614px 0px;
+    }
     .about-border {
         width: 265px;
     }
@@ -769,6 +780,7 @@ fieldset {
         margin: 10px 0;
     }
 }
+
 
 @media (max-width: 420px) {
     nav li {
