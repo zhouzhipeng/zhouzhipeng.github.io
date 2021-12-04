@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b4f41e-391c-4a14-99de-3864239abbc8" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/img/mysign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mysign_mini.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <list id="76f0c132-b385-4028-a3df-d23286e10bbd" name="dontcommit" comment="" />
