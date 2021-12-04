@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b4f41e-391c-4a14-99de-3864239abbc8" name="Default Changelist" comment="gitalk 标签长度限制为最长50">
-      <change afterPath="$PROJECT_DIR$/blog/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+    <list default="true" id="99b4f41e-391c-4a14-99de-3864239abbc8" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/_coverpage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/_navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/_navbar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <list id="76f0c132-b385-4028-a3df-d23286e10bbd" name="dontcommit" comment="" />
@@ -217,9 +212,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="捕鱼小游戏" />
-    <MESSAGE value="update" />
     <MESSAGE value="gitalk 标签长度限制为最长50" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitalk 标签长度限制为最长50" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog/static/images/2018/12/redis.png">
