@@ -159,8 +159,8 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
 <script>
-  const gitalk = new Gitalk({
-    id: location.href.split("blog/#/articles")[1].substring(0, 49),
+  var gitalk = new Gitalk({
+    id: location.href.split("blog/#/articles/")[1].substring(0, 49),
     clientID: '94a67aefc978e17aefd9',
     clientSecret: '19a7f7f14384598f7fdb31262da06210cc3196ee',
     repo: 'zhouzhipeng.github.io',
