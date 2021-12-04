@@ -1,96 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b4f41e-391c-4a14-99de-3864239abbc8" name="Default Changelist" comment="捕鱼小游戏">
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/fishjoy.game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bottom-bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bottom.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bottom.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bottom.tps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet.tps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/bullet8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon_minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon_minus_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon_plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/cannon_plus_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/coinAni1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/coinAni2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/coinText.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/energy-bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish-hd.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish-hd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/fish9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_1.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_2.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_2_hd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_3.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_3_cover.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/game_bg_4.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/level_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/level_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/level_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/level_shuxian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/main_menu.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/number_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/shark-hd.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/shark-hd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/shark1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/shark2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/startbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web.tps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/images/web7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/js/quark.base-1.0.0.alpha.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/readme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/FishGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/FishManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/R.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/fishjoy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/fishjoy2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/views/Bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/views/Cannon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/views/Fish.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/views/Num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/game/fishjoy/src/views/Player.js" afterDir="false" />
+    <list default="true" id="99b4f41e-391c-4a14-99de-3864239abbc8" name="Default Changelist" comment="gitalk 标签长度限制为最长50">
+      <change afterPath="$PROJECT_DIR$/blog/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/_coverpage.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/_navbar.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/_navbar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
+    <list id="76f0c132-b385-4028-a3df-d23286e10bbd" name="dontcommit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +43,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -170,10 +98,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554711285536" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/game/fishjoy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/blog" />
+      <recent name="$PROJECT_DIR$/game/fishjoy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -273,10 +211,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="捕鱼小游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="捕鱼小游戏" />
+    <MESSAGE value="update" />
+    <MESSAGE value="gitalk 标签长度限制为最长50" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitalk 标签长度限制为最长50" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/blog/static/images/2018/12/redis.png">

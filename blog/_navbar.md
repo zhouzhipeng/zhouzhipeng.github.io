@@ -1,5 +1,3 @@
-- <a href="../blog/" >博客首页</a>
+- <a href="../blog/" >Blog Index</a>
 
-- <a href="/" >主页</a>
-
-          
+- <a href="/" >Home</a>
