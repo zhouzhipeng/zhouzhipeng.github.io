@@ -76,7 +76,7 @@ $(document).ready(function () {
     AOS.init({
         duration: 1200,
         once: true,
-        disable: 'mobile'
+        // disable: 'mobile'
     });
 
     //  isotope
@@ -140,10 +140,11 @@ $(document).ready(function () {
                 }
             },
             submitHandler: function (form) {
+                console.log($(form).serialize())
                 $(form).ajaxSubmit({
                     type: "POST",
-                    data: $(form).serialize(),
-                    url: "process.php",
+                    // data: $(form).serialize(),
+                    url: "https://api.zhouzhipeng.com/contact-me",
                     success: function () {
                         $('#contact :input').attr('disabled', 'disabled');
                         $('#contact').fadeTo("slow", 1, function () {
