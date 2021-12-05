@@ -26,7 +26,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #f6f7f9;
+    color: #425BB5;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -38,7 +38,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #f6f7f9;
+    background: #425BB5;
     top: 9px;
 }
 
